@@ -10,6 +10,7 @@ import android.widget.TextView;
 
 public class AlarmActivity extends Activity {
 
+    // TODO: Jongmin + Soeun
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
