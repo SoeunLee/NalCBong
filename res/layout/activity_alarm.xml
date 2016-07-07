@@ -7,17 +7,17 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="kr.necbong.nalcbong.ScheduleActivity">
+    tools:context="kr.necbong.nalcbong.AlarmActivity">
 
     <ListView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="#D3D3D3"
         android:padding="1dp"
-        android:id="@+id/listview_schedule"/>
+        android:id="@+id/listview_alarm"/>
 
     <RelativeLayout
-        android:id="@+id/below_schedule"
+        android:id="@+id/below_alarm"
         android:layout_width="match_parent"
         android:layout_height="40dip"
         android:background="#fbfbfb"
@@ -25,29 +25,18 @@
         android:layout_alignParentTop="true">
 
         <TextView
-            android:id="@+id/button_calender"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentLeft="true"
-            android:layout_centerInParent="true"
-            android:layout_marginLeft="12dip"
-            android:textColor="#4B87CB"
-            android:textSize="17dip"
-            android:text="캘린더" />
-
-        <TextView
-            android:id="@+id/title_schedule"
+            android:id="@+id/title_alarm"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
             android:textColor="#000000"
             android:textSize="16dip"
-            android:text="일정" />
+            android:text="알람" />
 
     </RelativeLayout>
 
     <RelativeLayout
-        android:id="@+id/above_schedule"
+        android:id="@+id/above_alarm"
         android:layout_width="match_parent"
         android:layout_height="40dip"
         android:background="#fbfbfb"
@@ -55,7 +44,7 @@
         android:layout_alignParentBottom="true">
 
         <TextView
-            android:id="@+id/button_change_menu_schedule"
+            android:id="@+id/button_change_menu_alarm"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentRight="true"
@@ -63,7 +52,7 @@
             android:layout_marginRight="12dip"
             android:textColor="#4B87CB"
             android:textSize="17dip"
-            android:text="알람" />
+            android:text="일정" />
 
     </RelativeLayout>
 </RelativeLayout>
