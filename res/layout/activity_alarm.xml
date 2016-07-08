@@ -33,6 +33,17 @@
             android:textSize="16dip"
             android:text="알람" />
 
+        <TextView
+            android:id="@+id/add_alarm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="12dip"
+            android:textColor="#4B87CB"
+            android:textSize="20dip"
+            android:text="+"/>
+
     </RelativeLayout>
 
     <RelativeLayout

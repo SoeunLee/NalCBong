@@ -20,7 +20,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".ScheduleActivity" />
-        <activity android:name=".AlarmActivity"></activity>
+        <activity android:name=".AlarmActivity" />
+        <activity android:name=".AddAlarmActivity"></activity>
     </application>
 
 </manifest>
